@@ -1,0 +1,74 @@
+:root {
+  --main-color:#39b54a;
+  --secondary-color:gainsboro;
+  --text-color: #333;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:rgb(255, 240, 72);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+ h2 {
+  color:black;
+  margin-bottom: 20px;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup-form button {
+  width: 100%;
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signup-form button:hover {
+  background-color: var(--secondary-color);
+}
+
+.signup-container p {
+  color: var(--text-color);
+  margin-top: 20px;
+}
+
+.signup-container a {
+  color: var(--main-color);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.signup-container a:hover {
+  color: var(--secondary-color);
+}
